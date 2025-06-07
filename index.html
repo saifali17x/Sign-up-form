@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="left">
+            <div class="container">
+                <div class="border">
+                    <img id="logo" src="odin-lined.png" alt="Odin Logo" />
+                    <div id="logo-Name">Odin</div>
+                </div>
+            </div>
+            <footer>
+                Photos by
+                <a href="https://unsplash.com/@haliewestphoto">Hailie West</a>
+                on
+                <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a>
+            </footer>
+        </div>
+
+        <div class="right">
+            <div class="content-wrapper">
+                <h1>This is not a real online service!</h1>
+                <p>
+                    You know you need something like this in your life to help you realize
+                    your deepest dreams. Sign up <em>now</em> to get started.
+                    <br /><br />
+                    <strong>You know you want to.</strong>
+                </p>
+
+                <form action="" method="post">
+                    <h2>Let’s do this!</h2>
+                    <fieldset>
+                        <div class="input-group">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="Thor" />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Odinson" />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="tel">Phone Number</label>
+                            <input type="tel" id="tel" name="tel" />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required />
+                        </div>
+                    </fieldset>
+
+                    <button type="submit">Create Account</button>
+
+                    <div class="login">
+                        Already have an account? <a href="#">Log in</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
